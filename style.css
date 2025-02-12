@@ -6,3 +6,15 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background-color: #121212;
+}
