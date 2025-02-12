@@ -37,7 +37,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 35px 100px;
 }
 
 header .logo {
@@ -80,8 +80,8 @@ header .navigation li a {
 .container .text h2 {
     color: #fff;
     font-size: 3em;
-    margin-bottom: 10px;
-    line-height: 2.5em;
+    margin-bottom: 6px;
+    line-height: 2em;
     font-weight: 700;
 }
 
@@ -96,7 +96,7 @@ header .navigation li a {
 
 .container .text a {
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 10px 25px;
     background-color: #e51e2a;
     color: #fff;
@@ -109,4 +109,42 @@ header .navigation li a {
 
 .container .text a:hover {
     transform: translateY(-10px);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    margin-top: 20px;
+}
+
+.icons li {
+    list-style: none;
+}
+
+.icons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #222;
+    margin-left: 45px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.icons li a:hover {
+    background: #e51e2a;
+    transform: translateY(-10px);
+}
+
+.icons li a i {
+    color: #fff;
+    font-size: 65px;
+    transform: scale(0.5);
 }
