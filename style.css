@@ -148,3 +148,29 @@ header .navigation li a {
     font-size: 65px;
     transform: scale(0.5);
 }
+
+.box-img {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+
+.box-img img {
+    width: 140px;
+}
+
+.box-img .img1 {
+    transform: rotate(-15deg);
+}
+
+.box-img .img2 {
+    transform: rotate(5deg);
+}
+
+.box-img .img3 {
+    transform: rotate(15deg);
+}
+
+.box-img .img4 {
+    transform: rotate(-15deg);
+}
