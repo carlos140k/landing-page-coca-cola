@@ -56,11 +56,29 @@ header .navigation li {
 
 header .navigation li a {
     display: inline-block;
+    position: relative;
     text-decoration: none;
     color: #fff;
     font-weight: 500;
     font-size: 19px;
     margin-left: 100px;
+    padding-bottom: 5px;
+}
+
+.navigation li a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.navigation li a:hover::after {
+    width: 100%;
 }
 
 .container {
