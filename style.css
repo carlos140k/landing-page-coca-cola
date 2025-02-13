@@ -201,7 +201,7 @@ header .navigation li a {
 }
 
 #close-icon {
-    display: none;
+    display: block;
 }
 
 @media (max-width: 1024px) {
@@ -234,6 +234,13 @@ header .navigation li a {
 
     .container .text {
         max-width: 500px;
+    }
+
+    .icons {
+        gap: 15px;
+        margin-right: 480px;
+        position: relative; 
+        z-index: 10;
     }
 
     .box-img img {
@@ -389,6 +396,10 @@ header .navigation li a {
         font-size: 14px;
     }
 
+    .container {
+        margin-left: 20px;
+    }
+
     .container .text h2 {
         font-size: 1.8em;
         margin-top: 25px;
@@ -398,15 +409,16 @@ header .navigation li a {
         font-size: 2.2em;
     }
 
-    .icons {
-        margin-bottom: 310px;
-        align-items: center;
-        justify-content: center;
-    }
-
     .icons li a {
         width: 35px;
         height: 35px;
+    }
+
+    .icons {
+        gap: 15px;
+        margin-right: 180px;
+        position: relative; 
+        z-index: 10;
     }
 
     .icons li a i {
@@ -414,8 +426,7 @@ header .navigation li a {
     }
 
     .box-img img {
-        width: 68px;
-        bottom: 0;
-        right: 0;
+        width: 50px;
+        margin-left: 27px;
     }
 }
